@@ -4,27 +4,28 @@
 
 .body{
     font-family: 'Roboto', sans-serif;
-    width: 100%;
+    width: 1920px;
     height: 100%;
     background-color: #2F343A;
     margin: 0 auto;
 }
 
+.wrap{
+    width: 1110px;
+    margin: 0 auto;
+   
+
+}
 
 .header{
     width: 1920px;
     height: 45px;
     background: #C8A35F;
-   
+   margin-bottom: 27px;
    
 }
-.wrap{
-    width: 1110px;
-    margin: auto;
-   
 
-}
-
+/*-----------------------------------*/
 .language{
    
     display: flex;
@@ -44,6 +45,7 @@
     color: #FFFFFF;
     margin-top: 16px;
     margin-bottom: 16px;
+    text-decoration: none;
 }
 
 .language__eng{
@@ -57,6 +59,7 @@ font-family: Roboto;
     margin-top: 16px;
     margin-bottom: 16px;
     opacity: 0.5;
+    text-decoration: none;
 }
 
 .language__fr{
@@ -70,6 +73,7 @@ font-family: Roboto;
     margin-top: 16px;
     margin-bottom: 16px;
     opacity: 0.5;
+    text-decoration: none;
 }
 
 .language__email{
@@ -95,4 +99,64 @@ font-family: Roboto;
     Line-Height: 100%;
     color: #FFFFFF;
 
+}
+
+/*------------------------------*/
+
+.menu{
+    display: flex; 
+    align-items: center;
+}
+
+.menu__list{ 
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.menu__items{
+    margin-left: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menu__office{
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+}
+.menu__services{
+    margin-left: 351px;
+}
+.abc{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/*--------------------*/
+
+.logo{
+    width: 160px;
+    height: 46px;
+    padding-right: 30px;
+    border-right: 1px solid #F2F2F2;
+    
+}
+.logo__company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo__map{
+   margin-left: 29px;
+   padding-top: 6px
 }
