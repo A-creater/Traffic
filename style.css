@@ -178,4 +178,27 @@ font-family: Roboto;
     border: 1px solid #C8A35F;
     box-sizing: border-box;
     margin-top: 155px;
+    
+}
+.title{
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    margin-top: 45px;
+}
+.title__text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 45px;
+    padding: 0 72px;
 }
